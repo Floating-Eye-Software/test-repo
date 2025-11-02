@@ -1,0 +1,48 @@
+name: "Plan"
+description: "Track Plans, PQPs, and DCPs without duplicating the full document"
+title: "[Project] – Quality Plan"
+labels: ["Plan", "QMS"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Controlled Source:** [Link to Markdown](https://github.com/Floating-Eye-Software/fley-qms/blob/main/Templates/Quality-Plan-Template.md)
+        **Related SOP:** Quality-Planning-SOP
+
+  - type: input
+    id: plan_owner
+    attributes:
+      label: "Owner / Responsible"
+      description: "Who is responsible for this plan?"
+      placeholder: "Quality Manager / Project Lead"
+
+  - type: dropdown
+    id: plan_status
+    attributes:
+      label: "Status"
+      description: "Current status of the plan"
+      options:
+        - Draft
+        - In Review
+        - Approved
+        - Implemented
+
+  - type: milestone
+    id: plan_milestone
+    attributes:
+      label: "Milestone"
+      description: "Link to associated stage gate / milestone"
+
+  - type: issue
+    id: dependencies
+    attributes:
+      label: "Dependencies"
+      description: "Other issues or CAPAs dependent on this plan"
+
+  - type: date
+    id: review_date
+    attributes:
+      label: "Next Review Date"
+      description: "Optional verification or effectiveness review"
