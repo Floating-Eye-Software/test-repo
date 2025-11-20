@@ -1,33 +1,29 @@
 ---
 # FLEY QMS Header
 slug: TPL-GH-Change-Request
-revision: r2
+revision: r1
 type: TPL
-status: draft
-effective: null
+status: approved
+effective: 2025-11-14
 controlled_source: https://github.com/Floating-Eye-Software/fley-qms/blob/main/.github/ISSUE_TEMPLATE/change-request.md
 
 # GitHub Header
 name: Change Request
-about: Request for a change to QMS processes, systems, or documentation
+about: Request a change to QMS processes, systems, or documentation
 title: "CR: [Brief description]"
 labels: ["Change Request"]
 ---
 
 ## Change Request
-[Describe the proposed change, including reason, context, and expected benefit or justification.]
 
-## Impact & Risk Assessment
-[Summarize expected impact on QMS performance, compliance, or operations.  
-Include qualitative assessment of potential risks: Low / Medium / High.  
-Note any dependencies or affected areas.]
+**Purpose and Justification**  
+[Provide a one-sentence reason for the change.]
 
-## Planned Actions / Implementation
-[List concrete steps or tasks required to implement the change.  
-Include responsible role(s) and any dependencies on other processes or SOPs.]
+**Impact and Risk Assessment**  
+[Summarize expected impact on quality, compliance, or operations. Note if risk is low/medium/high.]
 
-## Verification / Acceptance Criteria
-[Define measurable outcomes or criteria that demonstrate the change has been successfully implemented and is effective.]
+**Affected Processes, Systems, or Documents**  
+[List all affected processes, documents, and/or systems.]
 
-## Related Processes / References
-[List relevant SOPs, documents, or records.]
+**Additional Notes / References**  
+[Include any relevant references, links, or attachments.]
